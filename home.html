@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.7-dist/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+      
+    
+      
+    <link href="./Fixed top navbar example for Bootstrap_files/navbar-top-fixed.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--  <div class="container-fluid">
+          <div class="BrandName" id="banner">
+              <p id="TopName">School of Music Montreal</p>
+          </div>
+      </div> --> 
+      
+      
+      <!------------------Start of the bar------------------ --> 
+      
+      <nav class="navbar navbar-default navbar-fixed-top" id="topnavbar">
+          <div class="container-fluid">
+              <ul class="nav navbar-nav">
+                  <li><a href="#">Home</a></li>
+                  <li class="activebut"><a href="#">Photos</a></li>
+                  <li><a href="#">Page 1</a></li>
+                  <li><a href="#">Page 2</a></li>
+                  <li><a href="#">Page 3</a></li>
+              </ul>
+              
+              
+              <div class="navbar-header" id="topnavbarheader" style="margin-left:16%; margin-right:10%;padding:0.5%">
+                  <a class="navbar-brand" href="#">  
+                    <p id="TopName">School of Music Montreal</p>
+                  </a>
+              </div>    
+              
+
+          </div>
+      </nav>
+      
+      <!----------------------------------------------------- -->
+      
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-sm-7" id="boxtype1">
+                  <div class="row" id="boxtitle1">
+                      <div class="col-sm-12">
+                        <P>OUR PLAN</P>
+                        <p style="margin-bottom:3%;font-size:12px">pilot project</p>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-4" id="rowtype1">
+                          <img src="http://i1.wp.com/sommontreal.com/wp-content/uploads/2015/11/IMG_3195.jpg?resize=250%2C250" alt="..." class="img-circle" style="height:160px;width:auto;margin-left:15%;margin-bottom:2%">
+                          <a style="text-decoration:none" href="#"><h3 Class="clickable" style="text-align:center">Program</h3></a>
+                          <p>The programming for introductory sessions will consist of musical workshops and activities that encourage group participation and excitement for learning. The regular programming at the schools consist of weekly group and private music lessons that will allow children to develop their musical skills in a fun and supporting environment.</p>
+                      </div>
+                      <div class="col-sm-4" id="rowtype1">
+                          <img src="admissions.JPG" alt="..." class="img-circle" style="height:160px;width:auto;margin-left:15%;margin-bottom:2%">
+                          <a style="text-decoration:none" href="#"><h3 Class="clickable" style="text-align:center">Admissions</h3></a>
+                          <p>Students are recommended and referred to the program by school teachers to apply for SoMM. Students are accepted based on need as well as their interest in music. Their interest in music education is also gauged through participation in introductory workshops at the elementary schools.</p>
+                      </div>
+                      <div class="col-sm-4" id="rowtype1">                          
+                          <img src="funding.jpg" alt="..." class="img-circle" style="position:relative;height:160px;width:auto;margin-left:15%;margin-bottom:2%">
+                          <a style="text-decoration:none" href="#"><h3 Class="clickable" style="text-align:center">Funding</h3></a>
+                          <p>SoMM is funding its programs through various avenues, including fundraising concerts and crowdfunding campaigns. Donations and sponsorships from various organizations also aid in SoMM’s needs for materials. The funding allows SoMM to provide all programming free-of-charge for the students. SoMM receives additional financial support from the Students’ Society of McGill University.</p>
+                      </div>
+                  </div>
+              </div>
+              <!---------end of first  box --> 
+              
+              <!--Second Box Start --> 
+              <div class="col-sm-4" id="boxtype2">
+                  <h1 style="color:white;text-align:center;font-weight:bold">OUR MISSION</h1>
+                  <h3 style="color:white;text-align:center;">Empowering youth through music</h3>
+                  <p style="color:white;text-align:center;">SoMM’s	mission	is	to provide	education	equality	to	children	at	risk,	to	reduce that	risk	by	providing a	safe	and supporting	environment, and	to achieve	this	education	and	personal	growth	potential through musical	avenues.<br><br>
+Individual risk can be defined as financial, academic, or personal circumstances that may	hinder	the	child	from receiving	an	equal	opportunity	for	education.	We	hope to reduce this risk and create a sense of personal empowerment in these children by introducing them to musical technique, exploring music through workshops and group classes, and sharing our passion for music with them.	We	want to allow every child	a	chance	to	learn music for	free. We	want to give them	an	opportunity	to	recognize and utilize alternative	sources	for	learning and take control of their own education. We not only strive to kickstart their musical	development,	we also aim	to foster	and	create	an	environment	in	which	the	student	can grow emotionally and individually.<br><br>
+                  The School	of	Music	Montreal	is	a	non-profit	organization	in	the	making in	affiliation	with	McGill	University.</p>
+              </div>
+              <!---------end of second  box --> 
+          </div>
+          
+          
+           <div class="row" id="boxtype3">
+              <a style="text-decoration:none" href="#"><h1 Class="notclickable" style="">Daily News</h1></a>
+              <div id="carousel" class="carousel slide" data-ride="carousel">
+                  
+                  <div class="carousel-inner">   
+                      <div class="item active">
+                          <div class = "col-sm-3" id= "innerbox">
+                            <p>THAT’S A WRAP FOR THE SUMMER!
+What a year it has been. Two semesters ago, our team was preparing for what we hoped would be a fruitful and busy pilot project. We wanted to deliver the best musical education experience to as many young students as possible – and the weekly lessons at Verdun Elementary, as well as the workshops at[…]</p>
+                          </div>
+                          <div class = "col-sm-3" id= "innerbox"> 
+                              <p>THAT’S A WRAP FOR THE SUMMER!
+What a year it has been. Two semesters ago, our team was preparing for what we hoped would be a fruitful and busy pilot project. We wanted to deliver the best musical education experience to as many young students as possible – and the weekly lessons at Verdun Elementary, as well as the workshops at[…]</p>
+                          </div>
+                          <div class = "col-sm-3" id= "innerbox">
+                                <p>THAT’S A WRAP FOR THE SUMMER!
+What a year it has been. Two semesters ago, our team was preparing for what we hoped would be a fruitful and busy pilot project. We wanted to deliver the best musical education experience to as many young students as possible – and the weekly lessons at Verdun Elementary, as well as the workshops at[…]</p>
+                          </div>                          
+                         
+                          
+                      </div>
+                      <div class="item">                         
+                          <div class = "col-sm-3" id= "innerbox">
+                                <p>THAT’S A WRAP FOR THE SUMMER!
+What a year it has been. Two semesters ago, our team was preparing for what we hoped would be a fruitful and busy pilot project. We wanted to deliver the best musical education experience to as many young students as possible – and the weekly lessons at Verdun Elementary, as well as the workshops at[…]</p>
+                          </div>
+                          <div class = "col-sm-3" id= "innerbox">
+                                <p>THAT’S A WRAP FOR THE SUMMER!
+What a year it has been. Two semesters ago, our team was preparing for what we hoped would be a fruitful and busy pilot project. We wanted to deliver the best musical education experience to as many young students as possible – and the weekly lessons at Verdun Elementary, as well as the workshops at[…]</p>
+                          </div>
+                          <div class = "col-sm-3" id= "innerbox">
+                             <p>THAT’S A WRAP FOR THE SUMMER!
+What a year it has been. Two semesters ago, our team was preparing for what we hoped would be a fruitful and busy pilot project. We wanted to deliver the best musical education experience to as many young students as possible – and the weekly lessons at Verdun Elementary, as well as the workshops at[…]</p>
+                          </div>                          
+                      </div>
+                      <div class="item">        
+                          <div class = "col-sm-3" id= "innerbox">
+                                <p>THAT’S A WRAP FOR THE SUMMER!
+What a year it has been. Two semesters ago, our team was preparing for what we hoped would be a fruitful and busy pilot project. We wanted to deliver the best musical education experience to as many young students as possible – and the weekly lessons at Verdun Elementary, as well as the workshops at[…]</p>
+                          </div>
+                          <div class = "col-sm-3" id= "innerbox">
+                               <p>THAT’S A WRAP FOR THE SUMMER!
+What a year it has been. Two semesters ago, our team was preparing for what we hoped would be a fruitful and busy pilot project. We wanted to deliver the best musical education experience to as many young students as possible – and the weekly lessons at Verdun Elementary, as well as the workshops at[…]</p>
+                          </div>
+                          <div class = "col-sm-3" id= "innerbox">
+                              <p>THAT’S A WRAP FOR THE SUMMER!
+What a year it has been. Two semesters ago, our team was preparing for what we hoped would be a fruitful and busy pilot project. We wanted to deliver the best musical education experience to as many young students as possible – and the weekly lessons at Verdun Elementary, as well as the workshops at[…]</p>
+                          </div>                          
+                      </div>
+                  </div>
+                  
+                  <a href="#carousel" class="left carousel-control" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"style="color:#9932cc"></span>
+                  </a>
+                  <a href="#carousel" class="right carousel-control" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right" style="color:#9932cc"></span>
+                  </a>
+              </div>
+          </div>
+
+          
+          <div class="row">
+               <div class="col-sm-7" style="width:95%" id="boxtype2">
+                   <h1 style="color:white;text-align:center;font-weight:bold">How Can You Help?</h1>
+              </div>
+          </div>
+      </div>
+      
+      
+      
+      
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="SommJs.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    
+  </body>
+</html>
