@@ -137,12 +137,12 @@ box-shadow: 10px 10px 5px 0px rgba(153,50,204,0.12);
 }
 
 #carousel {
-    margin-top: 2%;
+  
 }
 
 .carousel {
     height: auto;
-    margin-bottom: 60px;
+    margin-bottom: 1%;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -167,12 +167,13 @@ box-shadow: 10px 10px 5px 0px rgba(153,50,204,0.12);
 }
 
 #innerbox{
-    margin-bottom: 2%;
+    margin-bottom: 3%;
+    margin-top: 3%;
     background-color:black;
     margin-left: 2%;
     color:white;
     height:100%;
-    -webkit-box-shadow: 10px 10px 37px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 37px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 37px 0px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 3px 4px 37px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 4px 37px 5px rgba(0,0,0,0.75);
+box-shadow: 3px 4px 37px 5px rgba(0,0,0,0.75);
 }
