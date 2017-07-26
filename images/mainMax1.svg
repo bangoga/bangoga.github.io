@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 224.7 251.7" style="enable-background:new 0 0 224.7 251.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#27B99A;}
+	.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:none;}
+	.st3{fill:#27B99A;stroke:#000000;stroke-miterlimit:10;}
+	.st4{font-family:'MyriadPro-Regular';}
+	.st5{font-size:92.884px;}
+	.st6{font-size:86.2494px;}
+	.st7{fill:none;stroke:#000000;stroke-width:1.1977;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#000000;stroke-width:1.313;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#000000;stroke-width:1.0445;stroke-miterlimit:10;}
+	.st10{font-family:'Lato-BlackItalic';}
+	.st11{font-size:13.2691px;}
+</style>
+<ellipse id="XMLID_11_" class="st0" cx="110" cy="229.7" rx="20.3" ry="19.8"/>
+<image style="overflow:visible;" width="4096" height="4096" id="XMLID_20_" xlink:href="android-4096-black.png"  transform="matrix(1.169646e-002 0 0 1.135434e-002 86.0943 206.434)">
+</image>
+<g id="XMLID_26_">
+	
+		<image style="overflow:visible;opacity:0.84;" width="517" height="500" id="XMLID_146_" xlink:href="89C488C6.png"  transform="matrix(0.24 0 0 0.24 47.1276 61.8414)">
+	</image>
+	<g id="XMLID_139_">
+		<ellipse id="XMLID_145_" class="st0" cx="109.1" cy="121.8" rx="48.3" ry="46.2"/>
+		<ellipse id="XMLID_144_" class="st1" cx="109.1" cy="121.8" rx="48.3" ry="46.2"/>
+	</g>
+</g>
+<g id="XMLID_1_">
+	<rect id="XMLID_194_" x="6.9" y="86.5" class="st2" width="60.6" height="98.4"/>
+	<text id="XMLID_193_" transform="matrix(0.9791 0 0 1 6.8928 152.4059)"><tspan x="0" y="0" class="st3 st4 st5">&lt;</tspan><tspan x="55.4" y="0" class="st3 st4 st6"> </tspan></text>
+</g>
+<g id="XMLID_4_">
+	<rect id="XMLID_196_" x="157.3" y="86.5" class="st2" width="57.9" height="92.8"/>
+	<text id="XMLID_195_" transform="matrix(0.9791 0 0 1 157.2818 152.4059)" class="st3 st4 st5">&gt;</text>
+</g>
+<g id="XMLID_25_">
+	<defs>
+		<ellipse id="XMLID_5_" cx="109.1" cy="121.5" rx="44.9" ry="42.9"/>
+	</defs>
+	<clipPath id="XMLID_157_">
+		<use xlink:href="#XMLID_5_"  style="overflow:visible;"/>
+	</clipPath>
+	<g transform="matrix(1 0 0 1 0 0)" style="clip-path:url(#XMLID_157_);">
+		
+			<image style="overflow:visible;" width="644" height="960" id="XMLID_17_" xlink:href="995592_10202244840115224_1907299616_n.jpg"  transform="matrix(0.1518 0 0 0.1542 60.9566 73.215)">
+		</image>
+	</g>
+</g>
+<line id="XMLID_6_" class="st7" x1="58.4" y1="42.5" x2="86.1" y2="81.1"/>
+<line id="XMLID_7_" class="st8" x1="167.2" y1="41.8" x2="138.6" y2="85.5"/>
+<line id="XMLID_8_" class="st9" x1="109.1" y1="168" x2="110" y2="209.8"/>
+<ellipse id="XMLID_9_" class="st0" cx="49.3" cy="25.7" rx="20.3" ry="19.8"/>
+<ellipse id="XMLID_10_" class="st0" cx="179.4" cy="25.7" rx="20.3" ry="19.8"/>
+<rect id="XMLID_12_" x="35.5" y="17.5" class="st2" width="31.4" height="10.3"/>
+<text id="XMLID_13_" transform="matrix(0.9791 0 0 1 35.5028 27.4493)" class="st10 st11">&lt; / &gt; </text>
+<image style="overflow:visible;" width="200" height="200" id="XMLID_14_" xlink:href="c.png"  transform="matrix(0.1471 0 0 0.1519 33.7995 10.5009)">
+</image>
+<image style="overflow:visible;" width="512" height="512" id="XMLID_15_" xlink:href="games-icon-png-4.png"  transform="matrix(6.087183e-002 0 0 4.932984e-002 163.852 13.0579)">
+</image>
+</svg>
