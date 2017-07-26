@@ -1,6 +1,6 @@
 @font-face {
     font-family: myFirstFont;
-    src:url(../../../Unnamed%20Site%202/Lato-Black.woff);
+    src:url('../css/fonts/Lato-Black.woff');
 }
 
 body{
