@@ -141,15 +141,34 @@ p.rz_bp{
   transform: skew(20deg);
 }
 
+h1.rz_content{
+  font-family:myFirstFont;
+  display:block;
+  text-decoration:none;
+  color:rgba(255,252,252,1.00);
+  font-size:50px;
+  text-align:center;	
+}
 p.rz_content{
-	  font-family:myFirstFont;
+  font-family:myFirstFont;
   display:block;
   text-decoration:none;
   color:rgba(255,252,252,1.00);
   margin:0%;
   padding:0%;
-  font-size:30px;
+  font-size:16px;
+  margin-left:4%;
 }
+
+.navbar-brand{
+	font-family:myFirstFont;
+  display:block;
+  text-decoration:none;
+  color:rgba(255,252,252,1.00);
+  font-size:30px;
+	
+}
+
 .rz_button_select{
 
 }
