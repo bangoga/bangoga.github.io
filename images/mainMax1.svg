@@ -16,9 +16,14 @@
 	.st10{font-family:'Lato-BlackItalic';}
 	.st11{font-size:13.2691px;}
 </style>
+<style>
+	#XMLID_14_:hover{
+	fill:white;
+	}
+</style>
 <ellipse id="XMLID_11_" class="st0" cx="110" cy="229.7" rx="20.3" ry="19.8"/>
-<image style="overflow:visible;" width="4096" height="4096" id="XMLID_20_" xlink:href="android-4096-black.png"  transform="matrix(1.169646e-002 0 0 1.135434e-002 86.0943 206.434)">
-</image>
+<a href="#"><image style="overflow:visible;" width="4096" height="4096" id="XMLID_20_" xlink:href="android-4096-black.png"  transform="matrix(1.169646e-002 0 0 1.135434e-002 86.0943 206.434)">
+</image></a>
 <g id="XMLID_26_">
 	
 		<image style="overflow:visible;opacity:0.84;" width="517" height="500" id="XMLID_146_" xlink:href="89C488C6.png"  transform="matrix(0.24 0 0 0.24 47.1276 61.8414)">
@@ -52,12 +57,12 @@
 <line id="XMLID_6_" class="st7" x1="58.4" y1="42.5" x2="86.1" y2="81.1"/>
 <line id="XMLID_7_" class="st8" x1="167.2" y1="41.8" x2="138.6" y2="85.5"/>
 <line id="XMLID_8_" class="st9" x1="109.1" y1="168" x2="110" y2="209.8"/>
-<ellipse id="XMLID_9_" class="st0" cx="49.3" cy="25.7" rx="20.3" ry="19.8"/>
+><ellipse id="XMLID_9_" class="st0" cx="49.3" cy="25.7" rx="20.3" ry="19.8"/>
 <ellipse id="XMLID_10_" class="st0" cx="179.4" cy="25.7" rx="20.3" ry="19.8"/>
 <rect id="XMLID_12_" x="35.5" y="17.5" class="st2" width="31.4" height="10.3"/>
 <text id="XMLID_13_" transform="matrix(0.9791 0 0 1 35.5028 27.4493)" class="st10 st11">&lt; / &gt; </text>
-<image style="overflow:visible;" width="200" height="200" id="XMLID_14_" xlink:href="c.png"  transform="matrix(0.1471 0 0 0.1519 33.7995 10.5009)">
-</image>
-<image style="overflow:visible;" width="512" height="512" id="XMLID_15_" xlink:href="games-icon-png-4.png"  transform="matrix(6.087183e-002 0 0 4.932984e-002 163.852 13.0579)">
-</image>
+<a href="#"><image style="overflow:visible;" width="200" height="200" id="XMLID_14_" xlink:href="c.png"  transform="matrix(0.1471 0 0 0.1519 33.7995 10.5009)">
+</image></a>
+<a href="#"><image style="overflow:visible;" width="512" height="512" id="XMLID_15_" xlink:href="games-icon-png-4.png"  transform="matrix(6.087183e-002 0 0 4.932984e-002 163.852 13.0579)">
+</image></a>
 </svg>
