@@ -176,7 +176,7 @@ p.rz_content{
 .embedment{
 }
 
-.st0:hover
-{
-    fill:#fce57e !important;
+#player {
+  height: 0;
+  width: 0
 }
