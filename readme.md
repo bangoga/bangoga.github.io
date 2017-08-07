@@ -1,5 +1,4 @@
 # Personal Webiste (Under-Contruction) 
-
 Personal website used to show skills in Front-End Development, especially JQuery and SVG animation.
 * Music is temporary.
 * SVG needs updating to show further branching on click. 
