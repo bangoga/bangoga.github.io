@@ -1,0 +1,182 @@
+@font-face {
+    font-family: myFirstFont;
+    src:url('../css/fonts/Lato-Black.woff');
+}
+
+body{
+	background: #232526;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.rz_button
+{
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 150px;
+  height: 50px;
+  border: none;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: #1abc9c;
+  -webkit-transform:    skewX(-20deg);
+  transform:    skewX(-20deg);
+  outline: none;
+
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.rz_button:hover, .rz_button:focus, .rz_button:active {
+  color: white;
+}
+
+.rz_button:before {
+   content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000000;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.rz_button:hover:before{
+ -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+p.rz_p{
+  font-family:myFirstFont;
+  display:block;
+  text-decoration:none;
+  color:rgba(255,255,255,1.00);
+  margin:0%;
+  padding:0%;
+  font-size:30px;
+  transform: skew(20deg);
+}
+
+.rz_button_default{
+	
+}
+.rz_button_black{
+ -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 150px;
+  height: 50px;
+  border: none;
+  color: #1abc9c;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background:#232526;
+  -webkit-transform:    skewX(-20deg);
+  transform:    skewX(-20deg);
+  outline: none;
+  
+  
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+
+.rz_button_black:hover, .rz_button_black:focus, .rz_button_black:active {
+  color: white;
+}
+
+.rz_button_black:before {
+   content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #1abc9c;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.rz_button_black:hover:before{
+ -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+p.rz_bp{
+  font-family:myFirstFont;
+  display:block;
+  text-decoration:none;
+  color:rgba(255,252,252,1.00);
+  margin:0%;
+  padding:0%;
+  font-size:30px;
+  transform: skew(20deg);
+}
+
+h1.rz_content{
+  font-family:myFirstFont;
+  display:block;
+  text-decoration:none;
+  color:rgba(255,252,252,1.00);
+  font-size:50px;
+  text-align:center;	
+}
+p.rz_content{
+  font-family:myFirstFont;
+  display:block;
+  text-decoration:none;
+  color:rgba(255,252,252,1.00);
+  margin:0%;
+  padding:0%;
+  font-size:16px;
+  margin-left:4%;
+}
+
+.navbar-brand{
+	font-family:myFirstFont;
+  display:block;
+  text-decoration:none;
+  color:rgba(255,252,252,1.00);
+  font-size:30px;
+	
+}
+
+.rz_button_select{
+
+}
+
+.embedment{
+}
+
+#player {
+  height: 0;
+  width: 0
+}
