@@ -40,6 +40,7 @@ li.rz_Rside_btn{
   margin-bottom:15%;
   margin-top:10%;
   transition: width 0.2s;
+  cursor:pointer;
 }
 li.rz_Rside_btn:hover{
 	width: 180px;
@@ -354,12 +355,13 @@ h4.rz_boxh{
     float: left;
     background-color:rgba(0,0,0,1.00);
 	float: left;
-    height:100%;
+    height:120%;
 	width:0%;
 	z-index: 1;
     top: 0;
     left: 0;
     transition: 1s;
+	ease: 2s;
 }
 
 .sidenav a:hover {
@@ -371,11 +373,25 @@ h4.rz_boxh{
     display: block;
     transition: 1s;
 }
-html,
-body,
-.container {
-  height: 100%;
-  margin: 0;
+html, body { 
+  margin:0; 
+  padding:0; 
+  height:100%; 
 }
  
+p.rzNormalp{
+	
+		color: #fff;
+    text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
+	
+  font-family:myFirstFont;
+  display:block;
+  text-decoration:none;
+  color:rgba(255,255,255,1.00);
+  font-size:25px;
+  margin-top:5%;
+  text-align:center;
+}
 
